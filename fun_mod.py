@@ -15,7 +15,6 @@ inventario_base = [
 ]
 #funcion para generar el reporte
 def generar_reporte(inventario):
-    limpiar_pantalla()
     total = 0.00 #inicializa el total en ceros
     fecha = dt.date.today().strftime("%d/%m/%Y") #establece la fecha al día de hoy
     
